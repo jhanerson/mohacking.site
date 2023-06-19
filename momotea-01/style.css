@@ -1,0 +1,41 @@
+* {
+  margin: 1px;
+  color: rgb(24, 18, 11);
+}
+
+body {
+
+  background-color: blanchedalmond;
+}
+
+.momo {
+  background-color: blanchedalmond;
+  background-color: crimson;
+}
+
+.icon-1 {
+  font-size: 5rem;
+
+}
+.icon-2 {
+  font-size: 3rem;
+
+}
+
+
+.b1 {
+  position: left;
+}
+
+.b2 {
+  position: center;
+}
+
+.b3 {
+  margin-right: right;
+}
+
+.container-all {
+  margin: 1%;
+}
+

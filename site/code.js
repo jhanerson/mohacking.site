@@ -80,3 +80,11 @@ function checkPasswordA5() {
 }
 
 // A-5
+
+
+  // Inicializar Scrollspy al cargar la página
+    $(document).ready(function() {
+        $('body').scrollspy({ target: '.scroll-to', offset: 80 });
+});
+
+

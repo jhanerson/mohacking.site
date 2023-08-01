@@ -9,7 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     scroll-behavior: smooth;
-    background-color: rgba(92, 176, 202, 0.849);
+    background-color: blueviolet;
 }
 
 .no-scroll {

@@ -79,9 +79,58 @@
       Planes
     </h1>
   </div>
-
-
-
+<hr>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="text-center">Ofertas</h2>
+        <div id="countdown" class="text-center">
+          <p id="timer"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    /* Estilo para resaltar el mensaje de cuenta regresiva */
+    #countdown {
+      font-size: 24px;
+      color: red;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: 2px solid red;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #ffe6e6;
+    }
+  </style>
+  
+  <script>
+    // Fecha y hora final para la cuenta regresiva (por ejemplo, 5 días, 3 horas, 10 minutos después de la carga de la página)
+    const endDate = new Date();
+    endDate.setDate(endDate.getDate() + 2);
+    endDate.setHours(endDate.getHours() + 8);
+    endDate.setMinutes(endDate.getMinutes() + 10);
+  
+    function updateCountdown() {
+      const now = new Date();
+      const timeRemaining = endDate - now;
+  
+      if (timeRemaining <= 0) {
+        document.getElementById('timer').innerHTML = 'Cuenta regresiva finalizada';
+      } else {
+        const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+        document.getElementById('timer').innerHTML = `${days} días, ${hours} horas, ${minutes} minutos y ${seconds} segundos restantes`;
+      }
+    }
+  
+    // Actualizar la cuenta regresiva cada segundo
+    setInterval(updateCountdown, 1000);
+    updateCountdown(); // Actualizar inmediatamente al cargar la página
+  </script>
+ <hr>
   <main>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col">

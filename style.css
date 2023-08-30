@@ -1,63 +1,57 @@
+/* Establece el estilo de fuente en cursiva para todos los elementos */
 * {
-
     font-style: italic;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background-image: url('secciones/img/bad-graund/');
-    background-size: cover;
-    background-repeat: no-repeat;
-    scroll-behavior: smooth;
-    background-color: rgb(153, 178, 247);
-}
-
-.no-scroll {
-    overflow: hidden;
-
-}
-
-
-.centrado {
-
+#particles-js {
 
     height: 100vh;
-    background-image: url('img/bad-graund/D-2.g');
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
 
 }
 
+/* Estilos para el cuerpo del documento */
+body {
 
-.lds-ripple {
-    display: inline-block;
-    position: relative;
-    width: 80px;
-    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(4, 0, 10);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-.lds-ripple div {
-    position: absolute;
-    border: 4px solid #000000;
-    opacity: 1;
-    border-radius: 50%;
-    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+/* Clase para deshabilitar el desplazamiento */
+.no-scroll {
+    overflow: hidden;
 }
 
-.lds-ripple div:nth-child(2) {
-    animation-delay: -0.5s;
-}
+/* Clase para centrar elementos verticalmente */
+.centrado {
 
-@keyframes lds-ripple {
-    0% {
-        top: 36px;
-        left: 36px;
-        width: 0;
-        height: 0;
-        opacity: 0;
+        font-size: 1.3em;
+        position: absolute;
+        z-index: 10;
+        width: 200px;
+        height: 220px;
+        top: 50%;
+        left: 50%;
+        margin: -110px 0 0 -100px;
+        padding: 20px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        z-index: 100;
     }
 
+/* Definición de la animación lds-ripple */
+@keyframes lds-ripple {
+
+    0%,
     4.9% {
         top: 36px;
         left: 36px;

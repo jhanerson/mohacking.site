@@ -1,36 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
-body {
-    background: #263238;
-    margin: 0;
-}
 
 img {
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
 }
 
-figure {
+.grid1 {
     display: grid;
-    grid-template-columns: repeat(14, 60px);
-    grid-template-rows: repeat(9, 60px);
-    margin: 1px auto;
+    grid-template-columns: repeat(14, 2vh);
+    grid-template-rows: repeat(9, 3vh);
+    margin: 1% auto;
     width: min-content;
 }
 
-.border1 {
-
-    max-width: 9rem;
-
-}
 
 .A {
-    grid-area: 1 / 1 / -7 / -1;
+    grid-area: 1 / -7 / 4 / 1;
 }
 
 .B {
@@ -49,17 +39,17 @@ figure {
     grid-area: 14 / -6 / -7 / 5;
 }
 
-/**/
+/*1*/
 
 .F {
     grid-area: 1 / -7 / 4 / 1;
 }
 
 .G {
-    grid-area: 1 / 8 / 4 / -1;
+    grid-area: 1 / 9 / 4 / -1;
 }
 
-/**/
+/*2*/
 
 .H {
     grid-area: 7 / 7 / 4 / 1;
@@ -73,7 +63,7 @@ figure {
     grid-area: 7 / 11 / 4 / 7;
 }
 
-/**/
+/*3*/
 .K {
     grid-area: 14 / -7 / -4 / -1;
 }
@@ -87,12 +77,8 @@ figcaption {
     grid-area: -3 / -4 / -1 / -1;
     color: #fff;
     font-family: 'Merriweather', serif;
-    font-size: 22px;
 }
 
-small {
-    font-size: 14px;
-}
 
 
 

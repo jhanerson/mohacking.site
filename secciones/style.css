@@ -16,7 +16,7 @@ body{
 
 background-color: #000;
 
-
+margin: 10%;
 
 }
 
@@ -136,10 +136,3 @@ background-color: #000;
 
 }
 
-.A-1 {
-
-    margin: auto;
-    border: 1px;
-    padding: 5px;
-
-}

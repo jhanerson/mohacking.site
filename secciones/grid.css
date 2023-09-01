@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #263238;
+    margin: 0;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: repeat(14, 60px);
+    grid-template-rows: repeat(9, 60px);
+    margin: 1px auto;
+    width: min-content;
+}
+
+.border1 {
+
+    max-width: 9rem;
+
+}
+
+.A {
+    grid-area: 1 / 1 / -7 / -1;
+}
+
+.B {
+    grid-area: 1 / 10 / 6 / -1;
+}
+
+.C {
+    grid-area: 14 / 10 / 6 / -1;
+}
+
+.D {
+    grid-area: 14 / 1 / -7 / 5;
+}
+
+.E {
+    grid-area: 14 / -6 / -7 / 5;
+}
+
+/**/
+
+.F {
+    grid-area: 1 / -7 / 4 / 1;
+}
+
+.G {
+    grid-area: 1 / 8 / 4 / -1;
+}
+
+/**/
+
+.H {
+    grid-area: 7 / 7 / 4 / 1;
+}
+
+.I {
+    grid-area: 7 / -5 / 4 / -1;
+}
+
+.J {
+    grid-area: 7 / 11 / 4 / 7;
+}
+
+/**/
+.K {
+    grid-area: 14 / -7 / -4 / -1;
+}
+
+.L {
+    grid-area: 14 / -7 / -4 / 1;
+}
+
+
+figcaption {
+    grid-area: -3 / -4 / -1 / -1;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+}
+
+small {
+    font-size: 14px;
+}
+
+
+
+

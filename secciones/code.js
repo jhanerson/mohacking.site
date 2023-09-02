@@ -54,7 +54,7 @@ $("#contrasena").on("keyup", function () {
     var contrasena = $(this).val();
 
     // Comprobar si la contraseña es "mohacking20"
-    if (contrasena === "Cliente-Vip") {
+    if (contrasena === "mohacking20") {
         // Habilitar el botón si la contraseña es correcta
         $("#boton").prop("disabled", false);
     } else {
@@ -71,6 +71,6 @@ $("#boton").on("click", function () {
     // Comprobar si la contraseña es "mohacking20"
     if (contrasena === "mohacking20") {
         // Redireccionar a un enlace externo cuando se haga clic en el botón
-        window.location.href = "./Vip"; // Reemplaza "https://www.ejemplo.com" con el enlace que desees
+        window.location.href = "https://www.ejemplo.com"; // Reemplaza "https://www.ejemplo.com" con el enlace que desees
     }
 });

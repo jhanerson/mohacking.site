@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="icon" href="img/ico/A-1-icon.ico">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
   <style>
 
   </style>
@@ -24,301 +25,98 @@
     </div>
   </div>
 
-  <!-- -->
-  <!-- -->
 
-
-
-  <nav class="navbar navbar-expand-md fixed-top btn-bacgraund">
-    <div class="container-fluid">
-      <a class="navbar-brand btn bacgraund text-dark">Mohacking</a>
-      <button class="navbar-toggler bacgraund" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <ul>
-            <li class="btn dropdown-item">
-              <a class="text-1 btn bacgraund text-dark" href="index.html">Inicio</a>
-            </li>
-          </ul>
-          <ul>
-            <li class="dropdown-item">
-              <a class="text-1 btn bacgraund text-dark" href="products.html">Productos</a>
-            </li>
-          </ul>
-          <ul>
-            <li class="dropdown-item">
-              <a class="text-1 btn bacgraund text-dark" href="A-l-Andres.html">Marketing</a>
-            </li>
-          </ul>
-          <ul>
-            <li class="dropdown-item">
-              <a class="text-1 btn bacgraund text-dark" href="e-c-cañas.html">Desarrollo</a>
-            </li>
-          </ul>
-          <ul>
-            <li class="dropdown-item">
-              <a class="text-1 btn bacgraund text-dark" href="m-p-mohacking.html">Producción</a>
-            </li>
-          </ul>
-        </ul>
-      </div>
+  <!-- tall =( es la altura) -->
+  <!-- wide =(es el grosor) -->
+  <!-- se pueden convinar para crear un bloque -->
+  <!-- A -->
+  <div class="grid-container">
+    <div class="grid-item wide tall">
+      <a href="sitios/moki.html"><img src="img/asests/moki.png" style="max-width: 50%;" alt="moki"></a>
     </div>
-  </nav>
-
-
-  <video src="vod/A-1.mp4" class="card-img" autoplay loop></video>
-
-
-
-
-  <div class="text-center">
-    <h1>
-      Planes
-    </h1>
-  </div>
-<hr>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        <h2 class="text-center">Ofertas</h2>
-        <div id="countdown" class="text-center">
-          <p id="timer"></p>
-        </div>
-      </div>
+    <!-- A -->
+    <div class="grid-item">
+      <a href="pay.html"><a href=""><img src="img/asests/productos.png" style="max-width: 50%;" alt="productos"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item">
+      <a href="sitios/marketing.html"><img src="img/asests/liu.png" style="max-width: 50%;" alt="liu"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item">
+      <a href="sitios/ec.html"><img src="img/asests/ec.png" style="max-width: 50%;" alt="ec"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item">
+      <a href="#"><a href=""><img src="img/asests/tienda.png" style="max-width: 50%;" alt="tienda"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item">
+      <a href="https://www.instagram.com/mohacking.site/"><img src="img/asests/insta.png" style="max-width: 50%;"
+          alt="insta"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item ">
+      <a href="https://wa.me/573243011217"><img src="img/asests/wats.png" style="max-width: 50%;" alt="wats"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item">
+      <a href="#"><img src="img/asests/consultoria.png" style="max-width: 50%;" alt="consultoria"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item">
+      <a href="https://temp-live.netlify.app/site/"><img src="img/asests/gratis.png" style="max-width: 50%;"
+          alt="gratis"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item ">
+      <a href="#"><img src="img/asests/vip.png" style="max-width: 50%;" alt="vip"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item ">
+      <a href="#"><img src="img/asests/laboratorios.png" style="max-width: 50%;" alt="laboratorios"></a>
+    </div>
+    <!-- A -->
+    <div class="grid-item">
+      <a href="#"><img src="img/asests/ayuda.png" style="max-width: 50%;" alt="ayuda"></a>
     </div>
   </div>
-  <style>
-    /* Estilo para resaltar el mensaje de cuenta regresiva */
-    #countdown {
-      font-size: 24px;
-      color: red;
-      font-weight: bold;
-      text-transform: uppercase;
-      border: 2px solid red;
-      padding: 10px;
-      margin-top: 20px;
-      background-color: #ffe6e6;
-    }
-  </style>
-  
-  <script>
-    // Fecha y hora final para la cuenta regresiva (por ejemplo, 5 días, 3 horas, 10 minutos después de la carga de la página)
-    const endDate = new Date();
-    endDate.setDate(endDate.getDate() + 2);
-    endDate.setHours(endDate.getHours() + 8);
-    endDate.setMinutes(endDate.getMinutes() + 10);
-  
-    function updateCountdown() {
-      const now = new Date();
-      const timeRemaining = endDate - now;
-  
-      if (timeRemaining <= 0) {
-        document.getElementById('timer').innerHTML = 'Cuenta regresiva finalizada';
-      } else {
-        const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
-        document.getElementById('timer').innerHTML = `${days} días, ${hours} horas, ${minutes} minutos y ${seconds} segundos restantes`;
-      }
-    }
-  
-    // Actualizar la cuenta regresiva cada segundo
-    setInterval(updateCountdown, 1000);
-    updateCountdown(); // Actualizar inmediatamente al cargar la página
-  </script>
-<<<<<<< HEAD
+  <!-- -->
+  <!-- -->
+  <!-- -->
+  <!-- -->
+  <!-- -->
   <hr>
 
-=======
- <hr>
->>>>>>> parent of be19aa6 (V-5-01)
-  <main>
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm shadow-sm border-primary">
-          <div class="card-header py-3  text-bg-primary border-primary">
-            <h4 class="my-0 fw-normal">Emprendimientos</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$50.000<small class="text-body-secondary fw-light">COP</small><small
-                class="text-body-secondary fw-light">/mes</small></h1>
-            <div class="text-body-secondary">
-              <h2><del>($70.000)</del></h2>
-            </div>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Acceso a erremientas empresariales</li>
-              <hr>
-              <li>Contenido entrenamiento tecnologico</li>
-              <hr>
-              <li>Soporte por correo electrónico</li>
-              <hr>
-              <li>Acceso al centro de ayuda</li>
-            </ul>
-            <div>
-<<<<<<< HEAD
-              <script src="https://www.mercadopago.com.co/integrations/v1/web-payment-checkout.js"
-              data-preference-id="1461581343-6edd2e8b-5d1d-4fec-aa3b-24822c0a09d7" data-source="button">
-              </script>
-=======
-              <a href="https://www.paypal.com/invoice/p/#EQHCJLTYU8NDQTLU" type="button"
-                class="w-100 btn btn-lg btn-primary">Comprar ahora</a>
->>>>>>> parent of be19aa6 (V-5-01)
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-bg-primary border-primary">
-            <h4 class="my-0 fw-normal">Pymes</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$98.000<small class="text-body-secondary fw-light">COP</small><small
-                class="text-body-secondary fw-light">/mes</small></h1>
-            <div class="text-body-secondary">
-              <h2><del>($129.000)</del></h2>
-            </div>
-            <ul class="list-unstyled mt-3 mb-4">
-
-              <li>Acceso a herramientas empresariales</li>
-              <hr>
-              <li>Petición de herramienta personalizada</li>
-              <hr>
-              <li>Sitio web estático personalizado</li>
-              <hr>
-              <li>Contenido de entrenamiento tecnológico</li>
-              <hr>
-              <li>Asesoramiento tecnológico para tu negocio</li>
-              <hr>
-              <li>Soporte por correo electrónico</li>
-              <hr>
-              <li>Centro de ayuda</li>
-            </ul>
-            <div>
-<<<<<<< HEAD
-              <script src="https://www.mercadopago.com.co/integrations/v1/web-payment-checkout.js"
-              data-preference-id="1461581343-27fad4fa-0816-47d2-88d1-ef848233959a" data-source="button">
-              </script>
-=======
-              <a href="hhttps://www.paypal.com/invoice/p/#9HPYS84NCZRQEJRX" type="button"
-                class="w-100 btn btn-lg btn-primary">Comprar ahora</a>
->>>>>>> parent of be19aa6 (V-5-01)
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card mb-4 rounded-3 shadow-sm border-primary">
-          <div class="card-header py-3 text-bg-primary border-primary">
-            <h4 class="my-0 fw-normal">Empresa</h4>
-          </div>
-          <div class="card-body">
-            <h1 class="card-title pricing-card-title">$240.000<small
-                class="text-body-secondary fw-light">COP</small><small class="text-body-secondary fw-light">/mes</small>
-            </h1>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Acceso a herramientas empresariales</li>
-              <hr>
-              <li>Petición de herramientas personalizada</li>
-              <hr>
-              <li>Consultoria Profecional</li>
-              <hr>
-              <li>Contenido de entrenamiento tecnológico
-                Especializado
-              </li>
-              <hr>
-              <li>Asesoramiento tecnológico para 30 empleados</li>
-              <hr>
-              <li>Soporte por correo electrónico
-
-              </li>
-              <hr>
-              <li>Centro de ayuda</li>
-            </ul>
-            </ul>
-            <div>
-<<<<<<< HEAD
-              <script src="https://www.mercadopago.com.co/integrations/v1/web-payment-checkout.js"
-              data-preference-id="1461581343-62cb4699-4697-42af-b302-8393f0e0bd4c" data-source="button">
-              </script>
-=======
-              <a href="https://wa.me/573243011217" type="button" class="w-100 btn btn-lg btn-primary">Comprar
-                ahora</a>
->>>>>>> parent of be19aa6 (V-5-01)
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <section>
-    <section>
-      <div class="container mt-5">
-        <div class="form-group">
-          <label for="contrasena">Mohacking</label>
-          <input type="password" class="form-control" id="contrasena" placeholder="Ingresa la peticion">
-        </div>
-        <!-- El botón estará deshabilitado inicialmente -->
-        <button type="button" class="btn btn-primary" id="boton" disabled>Enviar</button>
-      </div>
-    </section>
-    <section>
-
-      <section>
-        <div class="container mt-5">
-          <div class="form-group">
-            <label for="emprende-cupon">Emprende-cupon:</label>
-            <input type="password" class="form-control" id="emprende-cupon" placeholder="Introduce el cupon">
-          </div>
-          <!-- El botón 1 estará deshabilitado inicialmente -->
-          <button type="button" class="btn btn-primary" id="boton1" disabled>Redimir</button>
-          <div class="form-group mt-3">
-            <label for="pymes-cupon">Pymes-cupon:</label>
-            <input type="password" class="form-control" id="pymes-cupon" placeholder="Introduce el cupon">
-          </div>
-          <!-- El botón 2 estará deshabilitado inicialmente -->
-          <button type="button" class="btn btn-primary" id="boton2" disabled>Redimir</button>
-        </div>
-      </section>
+  <footer class="container d-grid gap-2">
+    <ul>
+      <p>© Mohacking 2023 |<i class="bi bi-patch-check-fill"></i></p>
+    </ul>
+  </footer>
 
 
 
-<hr>
-
-      <footer class="container d-grid gap-2">
-        <ul>
-          <p>© Mohacking 2023 |<i class="bi bi-patch-check-fill"></i></p>
-        </ul>
-      </footer>
-      <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
 
 
 
-      <!-- -->
-      <!-- -->
+  <!-- -->
+  <!-- -->
 
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-      <!-- -->
-      <!-- -->
-      <!-- -->
-      <!-- -->
+  <!-- -->
+  <!-- -->
+  <!-- -->
+  <!-- -->
 
-      <script src="code.js"></script>
-      <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-      <!-- -->
-      <!-- -->
+  <script src="code.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- -->
+  <!-- -->
 </body>
 
 </html>

@@ -26,6 +26,6 @@ var x = setInterval(function () {
     // Si la cuenta regresiva ha terminado, muestra un mensaje
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("timer").innerHTML = "NUEVA ERRAMIENTA";
+        document.getElementById("timer").innerHTML = "NUEVO";
     }
 }, 1000);

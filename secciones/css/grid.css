@@ -8,6 +8,8 @@
     transition: transform 0.35s ease-in-out;
     background-size: cover;
     background-position: center;
+    padding: auto;
+    border: 0px;
     background-repeat: no-repeat;
 }
 

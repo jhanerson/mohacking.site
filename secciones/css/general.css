@@ -5,6 +5,109 @@
 
 footer {
 
-color: #ffffff;
+    color: #ffffff;
+
+}
+
+h4 {
+
+    color: rgb(224, 224, 224);
+}
+
+.imagen-caja {
+
+    max-width: 3rem;
+    text-align: center;
+
+}
+
+.card1 {
+
+    background-image: radial-gradient(circle at 28.33% 28.33%, #deba54 0, #e4b04c 10%, #e9a446 20%, #ed9841 30%, #f0893e 40%, #f2793c 50%, #f3683d 60%, #f35542 70%, #f34249 80%, #f22b52 90%, #f0075c 100%);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.card2 {
+
+    background-image: radial-gradient(circle at 57.98% 59.52%, #a5fcff 0, #9dd5f2 50%, #91afc2 100%);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.card3 {
+
+    background-image: radial-gradient(circle at 11.17% 31.9%, #fae0f3 0, #fddfef 3.57%, #ffdeec 7.14%, #ffdee8 10.71%, #ffdee4 14.29%, #ffdee0 17.86%, #ffdfdd 21.43%, #ffdfda 25%, #ffe0d7 28.57%, #ffe1d4 32.14%, #fee1d2 35.71%, #fce3d0 39.29%, #f9e4ce 42.86%, #f6e5cd 46.43%, #f2e6cd 50%, #eee7cd 53.57%, #eae8ce 57.14%, #e6e9cf 60.71%, #e2ebd1 64.29%, #ddecd3 67.86%, #d9ecd6 71.43%, #d6edd9 75%, #d2eedc 78.57%, #cfeedf 82.14%, #ccefe3 85.71%, #c9efe7 89.29%, #c8efeb 92.86%, #c7efee 96.43%, #c6eff2 100%);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+
+.card4 {
+
+    background-image: radial-gradient(circle at 14.88% 14.88%, #cc68ff 0, #ab5eff 25%, #8953f2 50%, #6748db 75%, #453ec5 100%);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.card5 {
+
+    background-image: radial-gradient(circle at -4.17% 95.45%, #f67e39 0, #f8723c 12.5%, #fa653f 25%, #fa5742 37.5%, #f94646 50%, #f7324b 62.5%, #f51451 75%, #f20058 87.5%, #ef0060 100%);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+
+.vip {
+    background-image: radial-gradient(circle at 89.77% 72.96%, #fffb67 0, #ffe760 16.67%, #ffd359 33.33%, #f2bd53 50%, #e2a84d 66.67%, #d39649 83.33%, #c58645 100%);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.consultoria {
+
+    background-image: radial-gradient(circle at -0.12% 73.37%, #ffffe0 0, #fffecb 25%, #f2f2b5 50%, #dbe6a1 75%, #c4dc90 100%);
+    color: rgb(0, 0, 0);
+    font-size: 80%;
+    text-align: center;
+}
+
+.whatsapp {
+    background-color: #25d366;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.whatsapp-icon {
+    margin-top: 13px;
+}
+
+.labs {
+    background-image: radial-gradient(circle at 12.38% 76.34%, #d8ffa1 0, #c6ffa2 8.33%, #b3ffa4 16.67%, #9efca7 25%, #85faab 33.33%, #68f6b0 41.67%, #3cf2b5 50%, #00eebb 58.33%, #00e9c3 66.67%, #00e5cd 75%, #00e1d7 83.33%, #00dee1 91.67%, #00daed 100%);
+
+}
+
+.info {
+
+    background-image: linear-gradient(270deg, #fae8d3 0, #f6e9d3 3.33%, #f3ebd3 6.67%, #efecd3 10%, #ecedd4 13.33%, #e8eed6 16.67%, #e4efd7 20%, #e0efd9 23.33%, #ddf0dc 26.67%, #daf1df 30%, #d6f1e2 33.33%, #d4f2e5 36.67%, #d1f2e8 40%, #cff2eb 43.33%, #cef2ef 46.67%, #cdf2f2 50%, #cdf2f5 53.33%, #cdf1f8 56.67%, #cef1fb 60%, #d0f0fd 63.33%, #d2efff 66.67%, #d4efff 70%, #d7eeff 73.33%, #dbedff 76.67%, #dfecff 80%, #e3ebff 83.33%, #e7eaff 86.67%, #ebe8ff 90%, #efe7ff 93.33%, #f3e6fd 96.67%, #f6e5fb 100%);
 
 }

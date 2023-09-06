@@ -7,7 +7,7 @@ window.onload = function () {
 
 
 // Establece la fecha de finalización de la cuenta regresiva (puedes cambiar esta fecha)
-var countdownDate = new Date("2023-09-03T20:59:59").getTime();
+var countdownDate = new Date("2023-09-10T20:59:59").getTime();
 
 // Actualiza la cuenta regresiva cada segundo
 var x = setInterval(function () {

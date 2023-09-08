@@ -3,17 +3,6 @@
     text-align: center;
 }
 
-footer {
-
-    color: #ffffff;
-
-}
-
-h4 {
-
-    color: rgb(224, 224, 224);
-}
-
 .imagen-caja {
 
     max-width: 3rem;
@@ -24,7 +13,7 @@ h4 {
 .card1 {
 
     background-image: radial-gradient(circle at 28.33% 28.33%, #deba54 0, #e4b04c 10%, #e9a446 20%, #ed9841 30%, #f0893e 40%, #f2793c 50%, #f3683d 60%, #f35542 70%, #f34249 80%, #f22b52 90%, #f0075c 100%);
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1em;
     text-align: center;
 }
@@ -44,22 +33,22 @@ h4 {
     color: rgb(0, 0, 0);
     font-size: 1em;
     text-align: center;
-    
+
 }
 
 
 .card4 {
 
     background-image: radial-gradient(circle at 14.88% 14.88%, #cc68ff 0, #ab5eff 25%, #8953f2 50%, #6748db 75%, #453ec5 100%);
-    color: white;
+    color: black;
     font-size: 1em;
     text-align: center;
 }
 
 .card5 {
 
-    background-image: radial-gradient(circle at -4.17% 95.45%, #f67e39 0, #f8723c 12.5%, #fa653f 25%, #fa5742 37.5%, #f94646 50%, #f7324b 62.5%, #f51451 75%, #f20058 87.5%, #ef0060 100%);
-    color: white;
+    background-image: radial-gradient(circle at 1.48% 41.44%, #fffa65 0, #ffe643 25%, #f8d110 50%, #f1bc00 75%, #eba700 100%);
+    color: rgb(0, 0, 0);
     font-size: 1em;
     text-align: center;
 }

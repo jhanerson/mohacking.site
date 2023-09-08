@@ -12,7 +12,7 @@
 
 .card1 {
 
-    background-image: radial-gradient(circle at 28.33% 28.33%, #deba54 0, #e4b04c 10%, #e9a446 20%, #ed9841 30%, #f0893e 40%, #f2793c 50%, #f3683d 60%, #f35542 70%, #f34249 80%, #f22b52 90%, #f0075c 100%);
+    background-image: radial-gradient(circle at 26.27% 16.12%, #ce54c5 0, #da4cb6 10%, #e445a7 20%, #eb3f98 30%, #f03c88 40%, #f23c78 50%, #f23f68 60%, #f14459 70%, #ed4a4a 80%, #e8523b 90%, #e15a2d 100%);
     color: rgb(0, 0, 0);
     font-size: 1em;
     text-align: center;
@@ -39,7 +39,7 @@
 
 .card4 {
 
-    background-image: radial-gradient(circle at 14.88% 14.88%, #cc68ff 0, #ab5eff 25%, #8953f2 50%, #6748db 75%, #453ec5 100%);
+    background-image: radial-gradient(circle at 13.81% 24.66%, #fa85e3 0, #ea79de 25%, #d86cd8 50%, #c55fd2 75%, #b355cd 100%);
     color: black;
     font-size: 1em;
     text-align: center;
